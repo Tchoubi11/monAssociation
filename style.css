@@ -10,3 +10,6 @@ h2{
         text-decoration: underline;
         
     }
+    p{
+        line-height: 20px;
+    }

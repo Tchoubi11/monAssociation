@@ -21,9 +21,20 @@ p{
         height: 100vh; /* 100% de la hauteur de la fenêtre */
        
          }
-         .carousel-img {
+.carousel-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-        }
-        
+}
+/*grille pour écran large*/
+@media(min-width:1024px){
+    .container{
+        font-size: 16px;
+    }
+}
+/*grille pour petit écran*/
+@media(max-width:767px){
+    .container{
+        font-size: 12px;
+    }
+}

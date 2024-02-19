@@ -4,50 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Association PLAY AND SHARE</title>
+    
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    
+  
 
+<div class="bg-image d-flex align-items-center justify-content-center">
+<div class="container">
+    <h3 class="mt-5 text-center"><span class="badge badge-primary"> Contacts</span></h3>
+    <p>Pour nous contacter au sujet de l'association sportive PLAY AND SHARE, merci de renseigner tous les champs.</p>
+    <form class="mx-auto " style="max-width: 400px;">
+        <div class="form-group">
+            <label class="fw-bold" for="nom">Nom:</label>
+            <input type="text" class="form-control form-control-sm" id="nom" placeholder="Entrez votre nom" required>
+        </div>
+        <div class="form-group">
+            <label class="fw-bold" for="prenom">Prénom:</label>
+            <input type="text" class="form-control form-control-sm" id="prenom" placeholder="Entrez votre prénom" required>
+        </div>
+        <div class="form-group">
+            <label class="fw-bold" for="telephone">Numéro de Téléphone:</label>
+            <input type="tel" class="form-control form-control-sm" id="telephone" placeholder="Entrez votre numéro de téléphone" required>
+        </div>
+        <div class="form-group">
+            <label class="fw-bold" for="email">Adresse Email:</label>
+            <input type="email" class="form-control form-control-sm" id="email" placeholder="Entrez votre adresse email" required>
+        </div>
+        <div class="form-group">
+            <label class="fw-bold" for="message">Message:</label>
+            <textarea class="form-control form-control-sm" id="message" rows="5" placeholder="Entrez votre message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+    </form>
+</div>
+</div>
 
-    <div class="bg-image d-flex align-items-center justify-content-center">
-      <div class="container">
-        <h3 class="mt-5 text-center"><span class="badge badge-primary"> Contacts</span></h3>
-        <p>Pour nous contacter au sujet de l'association sportive PLAY AND SHARE, merci de renseigner tous les champs.</p>
-        <form class="mx-auto " style="max-width: 400px;">
+</body>
+</html>
 
-            <div class="form-group">
-                <label class="fw-bold" for="nom">Nom:</label>
-                <input type="text" class="form-control form-control-sm" id="nom" placeholder="Entrez votre nom" required>
-            </div>
-
-            <div class="form-group">
-                <label class="fw-bold" for="prenom">Prénom:</label>
-                <input type="text" class="form-control form-control-sm" id="prenom" placeholder="Entrez votre prénom" required>
-            </div>
-
-            <div class="form-group">
-                <label class="fw-bold" for="telephone">Numéro de Téléphone:</label>
-                <input type="tel" class="form-control form-control-sm" id="telephone" placeholder="Entrez votre numéro de téléphone" required>
-            </div>
-
-            <div class="form-group">
-                <label class="fw-bold" for="email">Adresse Email:</label>
-                <input type="email" class="form-control form-control-sm" id="email" placeholder="Entrez votre adresse email" required>
-            </div>
-
-            <div class="form-group">
-                <label class="fw-bold" for="message">Message:</label>
-                <textarea class="form-control form-control-sm" id="message" rows="5" placeholder="Entrez votre message"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
-
-
-        </form>
-        
-      </div>
-    </div> 
-<script src="assets/bootstrap.bundle.js"></script>
+    <script src="assets/bootstrap.bundle.js"></script> 
 </body>
 </html>

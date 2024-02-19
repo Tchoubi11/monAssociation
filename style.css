@@ -6,10 +6,18 @@ h2{
     background-color: orangered;
     height: 150px;
     }
-    h4{
+h4{
         text-decoration: underline;
         
     }
-    p{
+p{
         line-height: 20px;
     }
+    
+.bg-image {
+        background-image: url('img1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* 100% de la hauteur de la fenêtre */
+       
+         }

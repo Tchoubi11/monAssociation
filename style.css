@@ -1,11 +1,15 @@
 *{
     box-sizing: border-box;
 }
-h1{
+h1 {
     font-size: 30px;
     background-color: orangered;
     height: 150px;
-    }
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
 p{
         line-height: 20px;
     }

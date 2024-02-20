@@ -4,4 +4,4 @@ J'ai créé un dossier assets dans lequel j'ai ajouté les fichiers bootstrap.mi
 J'ai créé les fichiers index.html , Contact.html et Statuts.html que j'ai relié à une feuille de style.css pour styliser mon site.
 J'ai ajouté des images dont l'image du logo du site et les images des différentes activités de l'association .
 Pour accéder au site web , veuilez cliquer sur le lien ci-dessous :
-https://release--associationplayandshare.netlify.app/statuts
+
